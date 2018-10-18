@@ -1,0 +1,33 @@
+rootProject.name = 'careband'
+include ':rn-fetch-blob'
+project(':rn-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/rn-fetch-blob/android')
+include ':rn-fetch-blob'
+project(':rn-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/rn-fetch-blob/android')
+include ':aws-amplify-react-native'
+project(':aws-amplify-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/aws-amplify-react-native/android')
+include ':react-native-material-kit'
+project(':react-native-material-kit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-material-kit/android')
+include ':amazon-cognito-identity-js'
+project(':amazon-cognito-identity-js').projectDir = new File(rootProject.projectDir, '../node_modules/amazon-cognito-identity-js/android')
+include ':react-native-aws-cognito-js'
+project(':react-native-aws-cognito-js').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-aws-cognito-js/android')
+include ':react-native-svg'
+project(':react-native-svg').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-svg/android')
+include ':react-native-tcp'
+project(':react-native-tcp').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tcp/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+include ':react-native-navigation'
+project(':react-native-navigation').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-navigation/android/app')
+include ':react-native-autogrow-textinput'
+project(':react-native-autogrow-textinput').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-autogrow-textinput/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+
+
+include ':react-native-maps'
+project(':react-native-maps').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-maps/lib/android')
+
+include ':app'
